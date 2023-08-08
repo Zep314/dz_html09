@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .test {  
+    width: 391px;
+    height: 250px;
+    background-image: url("http://svgshare.com/i/3ek.svg");
+    transform: translateZ(0);
+    transition: 0.5s;
+  }
+  
+  .test:hover {
+    filter: hue-rotate(300deg);
+    transition: 1.0s;
+  } 
+
+  

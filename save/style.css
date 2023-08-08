@@ -59,7 +59,7 @@ body {
     transition: 0.5s;
 }
 .search_glass:hover {
-    filter: invert(0.5);
+    filter: hue-rotate(300deg);
     transition: 1.0s;
 } 
 
